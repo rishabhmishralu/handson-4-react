@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: cadetblue;
+    height: 30px;
+}
+.active{
+    color: azure;
+}
+
+.student-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Add-student{
+    height: 36px;
+    width: 160px;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+.nav{
+  font-size: larger;
+  
+}
+.link{
+    text-decoration: none;
+}
+
+
+.th{
+    width: 250px;
+    margin: 20px;
+}
+.table{
+    margin: 30px;
+}
