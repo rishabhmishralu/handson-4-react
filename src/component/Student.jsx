@@ -23,21 +23,7 @@ const Student = () => {
               <th className="th">Batch</th>
               <th className="th">Change</th>
             </tr>
-            {/* {
-              val.entries.map((item)=>{
-               return (
-                 <tr>
-                 <td>{item.name}</td>
-           <td>{item.age}</td>
-           <td>{item.course}</td>
-           <td>{item.batch}</td>
-           <td><Link to ="/update"><button>update</button></Link></td>
-                 </tr>
-                
-               )
-              
-              }) 
-             } */}
+           
              <tr>
                 <td>rishabh</td>
                 <td>22</td>
