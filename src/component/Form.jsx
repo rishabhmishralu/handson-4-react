@@ -1,5 +1,5 @@
 import "./Form.css";
-import { useState } from "react";
+
 import { Link, useNavigate } from "react-router-dom";
 
 import Student from "./Student";
@@ -22,7 +22,7 @@ const Form = () => {
         <div className="innerform">
           <form action="" >
             <label className="label" htmlFor="name">
-              Name :{" "}
+              Name :
             </label>
             <input
               type="text"
@@ -31,7 +31,7 @@ const Form = () => {
             />
             <br></br><br />
             <label className="label" htmlFor="age">
-              Age :{" "}
+              Age :
             </label>
             <input
               type="text"
@@ -40,7 +40,7 @@ const Form = () => {
             />
             <br></br><br />
             <label className="label" htmlFor="course">
-              Course :{" "}
+              Course :
             </label>
             <input
               type="text"
@@ -49,7 +49,7 @@ const Form = () => {
             />
             <br></br><br />
             <label className="label" htmlFor="batch">
-              Batch :{" "}
+              Batch :
             </label>
             <input
               type="text"

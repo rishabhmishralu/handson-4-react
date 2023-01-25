@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from "react";
+
 import { Link, useNavigate } from "react-router-dom";
 const Update = () => {
 
@@ -18,7 +18,7 @@ const Update = () => {
        
           <form action="" >
             <label className="label" htmlFor="name">
-              Name :{" "}
+              Name :
             </label>
             <input
               type="text"
@@ -27,7 +27,7 @@ const Update = () => {
             />
             <br></br><br />
             <label className="label" htmlFor="age">
-              Age :{" "}
+              Age :
             </label>
             <input
               type="text"
@@ -36,7 +36,7 @@ const Update = () => {
             />
             <br></br><br />
             <label className="label" htmlFor="course">
-              Course :{" "}
+              Course :
             </label>
             <input
               type="text"
@@ -45,7 +45,7 @@ const Update = () => {
             />
             <br></br><br />
             <label className="label" htmlFor="batch">
-              Batch :{" "}
+              Batch :
             </label>
             <input
               type="text"

@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Header from './component/Header';
+
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Student from './component/Student';
 import Contact from './component/Contact';
