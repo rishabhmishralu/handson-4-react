@@ -2,7 +2,7 @@ import "./Form.css";
 
 import { Link, useNavigate } from "react-router-dom";
 
-import Student from "./Student";
+
 
 
 const Form = () => {

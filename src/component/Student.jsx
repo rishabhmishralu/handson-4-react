@@ -9,8 +9,8 @@ const Student = () => {
       <div className="student-1">
         <h2>Student Details</h2>
         <Link to="/form">
-          {" "}
-          <button className="Add-student">Add new student</button>{" "}
+        
+          <button className="Add-student">Add new student</button>
         </Link>
       </div>
       <div>
